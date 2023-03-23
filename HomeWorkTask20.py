@@ -21,8 +21,7 @@
 # английские, либо только русские буквы.
 
 
-input_list = []
-input_list.append(str(input("Введите слово: ")))
+input_list = (str(input("Введите слово на английском: "))).upper()
 print(list(input_list))
 
 scrabble_dict = {'A': 1, 'E': 1, 'I': 1, 'O': 1, 'U': 1, 'L': 1, 'N': 1, 'S': 1, 'T': 1, 'R': 1,  
@@ -33,6 +32,7 @@ scrabble_dict = {'A': 1, 'E': 1, 'I': 1, 'O': 1, 'U': 1, 'L': 1, 'N': 1, 'S': 1,
                  'J': 8, 'X': 8, 
                  'Q': 10, 'Z': 10}
 sum = 0
+print(input_list)
 for i in range(len(input_list)):
     sum = sum + scrabble_dict[input_list[i]]
 print(sum)
