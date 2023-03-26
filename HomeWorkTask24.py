@@ -18,7 +18,7 @@ for i in range(input_n - 1):
     sum = list_i[i - 1] + list_i[i] + list_i[i + 1]
     if sum > max_sum:
         max_sum = sum
-print(f"сумма{max_sum}")
+print(f"Сумма MAX собранных ягод {max_sum}")
 
 
 
