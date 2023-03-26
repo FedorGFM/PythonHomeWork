@@ -25,8 +25,8 @@ print(f"Второе множество -> {input_list_m}")
 #             break
 # print(input_list_x)
 
-input_list_l = sorted(input_list_n.intersection(input_list_m))  # Способ интерсепшен(сравнивает множества лист н и лист 
-print(input_list_l)                                                                 #м, если совпадает вычитает их остальные не трогает)
+input_list_l = sorted(input_list_n.intersection(input_list_m))  # Способ интерсепшен(сравнивает множества лист н и лист м, 
+print(input_list_l)                                             #если совпадает вычитает их остальные не трогает)
 
     
 
